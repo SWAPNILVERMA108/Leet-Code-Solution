@@ -33,6 +33,7 @@ public:
                  el = nums[i];
 
             }
+
             else if(nums[i]==el){
                 cnt++;
 
@@ -41,6 +42,7 @@ public:
                 cnt--;
             }
         }
+        
         return el;
     }
 };
