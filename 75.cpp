@@ -26,11 +26,9 @@ public:
         for(int i=0;i<cnt2;i++){
             nums[ind++]=2;
         }
-        
     
     }
 };
-
 
 // Optimal approch
 
