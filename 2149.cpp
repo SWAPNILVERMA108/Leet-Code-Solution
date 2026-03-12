@@ -14,6 +14,7 @@ public:
             for (int i = 0; i < neg.size(); i++) {
                 nums[2 * i] = pos[i];
                 nums[2 * i + 1] = neg[i];
+                
             }
 
             int index = neg.size() * 2;
