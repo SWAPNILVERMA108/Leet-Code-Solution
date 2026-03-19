@@ -32,7 +32,9 @@ public:
             }
 
             // bottom → top
+
             if(left <= right){
+                
                 for(int i = bottom; i >= top; i--){
                     ans.push_back(matrix[i][left]);
                 }
