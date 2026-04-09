@@ -6,7 +6,7 @@ int sumByD(vector<int> &nums,int div){
     int sum =0;
     int n = nums.size();
     for(int i=0;i<n;i++){
-        sum = sum + ceil((double)(nums[i]/(double)(div)));
+        sum += (nums[i] + div - 1) / div;
 
     }
     return sum;
@@ -17,7 +17,7 @@ int sumByD(vector<int> &nums,int div){
         int high = *max_element(nums.begin(),nums.end());
 
         while(low<=high){
-            int mid = (low+high)/2;
+            int mid = low + (high - low) / 2;
             if(sumByD(nums,mid)<= threshold){
                 high = mid-1;
 
