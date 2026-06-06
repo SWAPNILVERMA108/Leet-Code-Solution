@@ -27,4 +27,4 @@ public:
         maxi=max(maxi,left+right+node->val);
         return max(left,right)+node->val;
     }
-};
+};7

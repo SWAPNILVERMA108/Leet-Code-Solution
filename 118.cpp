@@ -22,6 +22,7 @@ public:
 
         for(int row = 1; row <= numRows; row++) {
             triangle.push_back(generateRow(row));
+            
         }
 
         return triangle;
