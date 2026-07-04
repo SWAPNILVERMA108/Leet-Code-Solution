@@ -13,6 +13,7 @@ class Solution {
 public:
     int idx =0;
     TreeNode* build(vector<int> &preorder , int bound){
+        
         if(idx==preorder.size() || preorder[idx]>bound){
             return nullptr;
         
