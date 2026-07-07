@@ -6,5 +6,6 @@ public:
         int mini = *min_element(nums.begin(), nums.end());
 
         return 1LL * (maxi - mini) * k;
+        
     }
 };
