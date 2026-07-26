@@ -1,3 +1,5 @@
+// 14. Longest Common Prefix 
+
 class Solution {
 public:
     string longestCommonPrefix(vector<string>& strs) {
@@ -16,6 +18,7 @@ public:
                     return first.substr(0, i);
                 }
             }
+
         }
 
         return first;
