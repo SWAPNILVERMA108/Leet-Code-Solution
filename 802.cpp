@@ -1,4 +1,5 @@
-// 
+// find the eventual safe nodes in a directed graph
+// dFS approach
 
 class Solution {
 public:
