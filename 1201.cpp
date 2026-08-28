@@ -1,3 +1,4 @@
+// problem no : 1201
 class Solution {
 public:
     using ll = long long;
@@ -21,8 +22,11 @@ public:
             if (cnt >= n) {
                 right = mid;
             } else {
+
+
                 left = mid + 1;
             }
+
         }
 
         return left;
